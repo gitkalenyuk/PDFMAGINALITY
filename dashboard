@@ -1,0 +1,204 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Inter%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-white group/design-root overflow-x-hidden" style='font-family: Inter, "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f0f2f5] px-10 py-3">
+          <div class="flex items-center gap-4 text-[#111418]">
+            <div class="size-4">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M36.7273 44C33.9891 44 31.6043 39.8386 30.3636 33.69C29.123 39.8386 26.7382 44 24 44C21.2618 44 18.877 39.8386 17.6364 33.69C16.3957 39.8386 14.0109 44 11.2727 44C7.25611 44 4 35.0457 4 24C4 12.9543 7.25611 4 11.2727 4C14.0109 4 16.3957 8.16144 17.6364 14.31C18.877 8.16144 21.2618 4 24 4C26.7382 4 29.123 8.16144 30.3636 14.31C31.6043 8.16144 33.9891 4 36.7273 4C40.7439 4 44 12.9543 44 24C44 35.0457 40.7439 44 36.7273 44Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="text-[#111418] text-lg font-bold leading-tight tracking-[-0.015em]">PDF Price Editor</h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-[#111418] text-sm font-medium leading-normal" href="#">My Documents</a>
+              <a class="text-[#111418] text-sm font-medium leading-normal" href="#">Processing History</a>
+            </div>
+            <button
+              class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 bg-[#f0f2f5] text-[#111418] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+            >
+              <div class="text-[#111418]" data-icon="Globe" data-size="20px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24ZM101.63,168h52.74C149,186.34,140,202.87,128,215.89,116,202.87,107,186.34,101.63,168ZM98,152a145.72,145.72,0,0,1,0-48h60a145.72,145.72,0,0,1,0,48ZM40,128a87.61,87.61,0,0,1,3.33-24H81.79a161.79,161.79,0,0,0,0,48H43.33A87.61,87.61,0,0,1,40,128ZM154.37,88H101.63C107,69.66,116,53.13,128,40.11,140,53.13,149,69.66,154.37,88Zm19.84,16h38.46a88.15,88.15,0,0,1,0,48H174.21a161.79,161.79,0,0,0,0-48Zm32.16-16H170.94a142.39,142.39,0,0,0-20.26-45A88.37,88.37,0,0,1,206.37,88ZM105.32,43A142.39,142.39,0,0,0,85.06,88H49.63A88.37,88.37,0,0,1,105.32,43ZM49.63,168H85.06a142.39,142.39,0,0,0,20.26,45A88.37,88.37,0,0,1,49.63,168Zm101.05,45a142.39,142.39,0,0,0,20.26-45h35.43A88.37,88.37,0,0,1,150.68,213Z"
+                  ></path>
+                </svg>
+              </div>
+            </button>
+            <div
+              class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDCoemnGUuzY4edRjnCPU4w9OlbRGTfFEfvuTF_8yIGWQB7s6sSxCKrIpH5sElobSPxCebZzJDcO7pjHo6I_3tHhf9Da5NzYtX9kY38xcaYsNT80M70ViBpH2xhnd1DKjrJNJFofSycF83nslJ9Bc4q-UN0IF2iosaIiIaHIGyCRIn2Gk6OeH38SIFWw4l-VR-s5q15owd31GJIy3ldAQ7Rc7lQd9nmG2La5Q7ov99I6_QdJShL4p-wHE6waJ3jagIJMVK-zCh6dqsm");'
+            ></div>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="flex flex-wrap justify-between gap-3 p-4">
+              <div class="flex min-w-72 flex-col gap-3">
+                <p class="text-[#111418] tracking-light text-[32px] font-bold leading-tight">Dashboard</p>
+                <p class="text-[#60748a] text-sm font-normal leading-normal">Welcome back, Elena</p>
+              </div>
+            </div>
+            <h2 class="text-[#111418] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">My Documents</h2>
+            <div class="px-4 py-3 @container">
+              <div class="flex overflow-hidden rounded-lg border border-[#dbe0e6] bg-white">
+                <table class="flex-1">
+                  <thead>
+                    <tr class="bg-white">
+                      <th class="table-2279bbb9-9208-4d7b-8a02-6a212b72cad0-column-120 px-4 py-3 text-left text-[#111418] w-[400px] text-sm font-medium leading-normal">
+                        Document Name
+                      </th>
+                      <th class="table-2279bbb9-9208-4d7b-8a02-6a212b72cad0-column-240 px-4 py-3 text-left text-[#111418] w-[400px] text-sm font-medium leading-normal">
+                        Upload Date
+                      </th>
+                      <th class="table-2279bbb9-9208-4d7b-8a02-6a212b72cad0-column-360 px-4 py-3 text-left text-[#111418] w-60 text-[#60748a] text-sm font-medium leading-normal">
+                        Actions
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="border-t border-t-[#dbe0e6]">
+                      <td class="table-2279bbb9-9208-4d7b-8a02-6a212b72cad0-column-120 h-[72px] px-4 py-2 w-[400px] text-[#111418] text-sm font-normal leading-normal">
+                        Invoice_2023-01.pdf
+                      </td>
+                      <td class="table-2279bbb9-9208-4d7b-8a02-6a212b72cad0-column-240 h-[72px] px-4 py-2 w-[400px] text-[#60748a] text-sm font-normal leading-normal">
+                        2023-01-15
+                      </td>
+                      <td class="table-2279bbb9-9208-4d7b-8a02-6a212b72cad0-column-360 h-[72px] px-4 py-2 w-60 text-[#60748a] text-sm font-bold leading-normal tracking-[0.015em]">
+                        Download | Delete
+                      </td>
+                    </tr>
+                    <tr class="border-t border-t-[#dbe0e6]">
+                      <td class="table-2279bbb9-9208-4d7b-8a02-6a212b72cad0-column-120 h-[72px] px-4 py-2 w-[400px] text-[#111418] text-sm font-normal leading-normal">
+                        Contract_2023-02.pdf
+                      </td>
+                      <td class="table-2279bbb9-9208-4d7b-8a02-6a212b72cad0-column-240 h-[72px] px-4 py-2 w-[400px] text-[#60748a] text-sm font-normal leading-normal">
+                        2023-02-20
+                      </td>
+                      <td class="table-2279bbb9-9208-4d7b-8a02-6a212b72cad0-column-360 h-[72px] px-4 py-2 w-60 text-[#60748a] text-sm font-bold leading-normal tracking-[0.015em]">
+                        Download | Delete
+                      </td>
+                    </tr>
+                    <tr class="border-t border-t-[#dbe0e6]">
+                      <td class="table-2279bbb9-9208-4d7b-8a02-6a212b72cad0-column-120 h-[72px] px-4 py-2 w-[400px] text-[#111418] text-sm font-normal leading-normal">
+                        Report_2023-03.pdf
+                      </td>
+                      <td class="table-2279bbb9-9208-4d7b-8a02-6a212b72cad0-column-240 h-[72px] px-4 py-2 w-[400px] text-[#60748a] text-sm font-normal leading-normal">
+                        2023-03-25
+                      </td>
+                      <td class="table-2279bbb9-9208-4d7b-8a02-6a212b72cad0-column-360 h-[72px] px-4 py-2 w-60 text-[#60748a] text-sm font-bold leading-normal tracking-[0.015em]">
+                        Download | Delete
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <style>
+                          @container(max-width:120px){.table-2279bbb9-9208-4d7b-8a02-6a212b72cad0-column-120{display: none;}}
+                @container(max-width:240px){.table-2279bbb9-9208-4d7b-8a02-6a212b72cad0-column-240{display: none;}}
+                @container(max-width:360px){.table-2279bbb9-9208-4d7b-8a02-6a212b72cad0-column-360{display: none;}}
+              </style>
+            </div>
+            <h2 class="text-[#111418] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Processing History</h2>
+            <div class="px-4 py-3 @container">
+              <div class="flex overflow-hidden rounded-lg border border-[#dbe0e6] bg-white">
+                <table class="flex-1">
+                  <thead>
+                    <tr class="bg-white">
+                      <th class="table-198c2e51-938c-41be-8a57-a1885900b706-column-120 px-4 py-3 text-left text-[#111418] w-[400px] text-sm font-medium leading-normal">
+                        Document Name
+                      </th>
+                      <th class="table-198c2e51-938c-41be-8a57-a1885900b706-column-240 px-4 py-3 text-left text-[#111418] w-[400px] text-sm font-medium leading-normal">
+                        Processing Date
+                      </th>
+                      <th class="table-198c2e51-938c-41be-8a57-a1885900b706-column-360 px-4 py-3 text-left text-[#111418] w-60 text-[#60748a] text-sm font-medium leading-normal">
+                        Actions
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="border-t border-t-[#dbe0e6]">
+                      <td class="table-198c2e51-938c-41be-8a57-a1885900b706-column-120 h-[72px] px-4 py-2 w-[400px] text-[#111418] text-sm font-normal leading-normal">
+                        Invoice_2023-01.pdf
+                      </td>
+                      <td class="table-198c2e51-938c-41be-8a57-a1885900b706-column-240 h-[72px] px-4 py-2 w-[400px] text-[#60748a] text-sm font-normal leading-normal">
+                        2023-01-16
+                      </td>
+                      <td class="table-198c2e51-938c-41be-8a57-a1885900b706-column-360 h-[72px] px-4 py-2 w-60 text-[#60748a] text-sm font-bold leading-normal tracking-[0.015em]">
+                        Download | Delete
+                      </td>
+                    </tr>
+                    <tr class="border-t border-t-[#dbe0e6]">
+                      <td class="table-198c2e51-938c-41be-8a57-a1885900b706-column-120 h-[72px] px-4 py-2 w-[400px] text-[#111418] text-sm font-normal leading-normal">
+                        Contract_2023-02.pdf
+                      </td>
+                      <td class="table-198c2e51-938c-41be-8a57-a1885900b706-column-240 h-[72px] px-4 py-2 w-[400px] text-[#60748a] text-sm font-normal leading-normal">
+                        2023-02-21
+                      </td>
+                      <td class="table-198c2e51-938c-41be-8a57-a1885900b706-column-360 h-[72px] px-4 py-2 w-60 text-[#60748a] text-sm font-bold leading-normal tracking-[0.015em]">
+                        Download | Delete
+                      </td>
+                    </tr>
+                    <tr class="border-t border-t-[#dbe0e6]">
+                      <td class="table-198c2e51-938c-41be-8a57-a1885900b706-column-120 h-[72px] px-4 py-2 w-[400px] text-[#111418] text-sm font-normal leading-normal">
+                        Report_2023-03.pdf
+                      </td>
+                      <td class="table-198c2e51-938c-41be-8a57-a1885900b706-column-240 h-[72px] px-4 py-2 w-[400px] text-[#60748a] text-sm font-normal leading-normal">
+                        2023-03-26
+                      </td>
+                      <td class="table-198c2e51-938c-41be-8a57-a1885900b706-column-360 h-[72px] px-4 py-2 w-60 text-[#60748a] text-sm font-bold leading-normal tracking-[0.015em]">
+                        Download | Delete
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <style>
+                          @container(max-width:120px){.table-198c2e51-938c-41be-8a57-a1885900b706-column-120{display: none;}}
+                @container(max-width:240px){.table-198c2e51-938c-41be-8a57-a1885900b706-column-240{display: none;}}
+                @container(max-width:360px){.table-198c2e51-938c-41be-8a57-a1885900b706-column-360{display: none;}}
+              </style>
+            </div>
+            <div class="flex px-4 py-3 justify-start">
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#0c77f2] text-white text-sm font-bold leading-normal tracking-[0.015em]"
+              >
+                <span class="truncate">Edit New PDF</span>
+              </button>
+            </div>
+            <h2 class="text-[#111418] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Settings</h2>
+            <div class="p-4 grid grid-cols-[20%_1fr] gap-x-6">
+              <div class="col-span-2 grid grid-cols-subgrid border-t border-t-[#dbe0e6] py-5">
+                <p class="text-[#60748a] text-sm font-normal leading-normal">Language</p>
+                <p class="text-[#111418] text-sm font-normal leading-normal">Italian</p>
+              </div>
+              <div class="col-span-2 grid grid-cols-subgrid border-t border-t-[#dbe0e6] py-5">
+                <p class="text-[#60748a] text-sm font-normal leading-normal">Default Percentage</p>
+                <p class="text-[#111418] text-sm font-normal leading-normal">10%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
